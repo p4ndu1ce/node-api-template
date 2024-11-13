@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "lib": ["ES2021"],
+    "module": "CommonJS",
+    "target": "ES2021",
+    "rootDir": ".",
+    "outDir": "build",
+    "strict": true,
+    "allowJs": true,
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "noImplicitReturns": false,
+    "noImplicitAny": false,
+    "noUnusedLocals": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowUnusedLabels": false,
+    "allowUnreachableCode": false,
+    "exactOptionalPropertyTypes": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedParameters": true,
+    "checkJs": true,
+    "types": [
+      "node",
+      "jest"
+    ],
+  },
+  "include": [
+    "src/**/*.ts",
+    "test/**/*.ts"
+  ],
+  "typeRoots": [
+    "./src/types",
+    "node_modules/@types"
+  ]
+}
